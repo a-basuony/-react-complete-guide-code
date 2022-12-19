@@ -1,6 +1,7 @@
 .app {
   margin: 0;
   padding: 0;
+  height: 100vh;
   box-sizing: border-box;
   background-color: #4b4b4b;
 }
