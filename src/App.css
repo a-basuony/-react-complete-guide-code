@@ -1,17 +1,13 @@
-.app {
+html {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 0;
+  padding: 10px;
+  height: fit-content;
   box-sizing: border-box;
   background-color: #4b4b4b;
-}
-.app-title {
-  color: white;
-  margin: 0 auto;
-  padding: 1rem;
-  width: 50rem;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-  max-width: 95%;
-  border-radius: 12px;
-  background-color: rgb(31, 31, 31);
 }
