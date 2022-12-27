@@ -29,6 +29,8 @@ const App = () => {
     console.log(expense);
   };
 
+
+
   return (
     // using jsx
     <div className="app">
