@@ -12,14 +12,13 @@ const ExpenseForm = (props) => {
   //   enteredDate: ''
   // })
 
-  const titleChangeHandler = (event) => {
-    setEnteredTitle(event.target.value);
-
-    // setUserInput({
-    //   ...userInput,
-    //   enteredTitle: event.target.value,
-    // })
+  const titleChangeHandler = (e) => {
+    setEnteredTitle(e.target.value);
   };
+  // setUserInput({
+  //   ...userInput,
+  //   enteredTitle: event.target.value,
+  // })
 
   const amountChangeHandler = (e) => {
     setEnteredAmount(e.target.value);
